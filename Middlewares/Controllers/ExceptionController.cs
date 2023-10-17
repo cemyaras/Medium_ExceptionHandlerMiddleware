@@ -6,6 +6,7 @@ namespace Middlewares.Controllers
 	[Route("[controller]")]
 	public class ExceptionController : ControllerBase
 	{
+		//deneme branch
 		[HttpGet("Case1")]
 		public string Test1()
 		{
